@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/skylark-logistics/static/css/main.b7c47126.chunk.css",
-    "main.js": "/skylark-logistics/static/js/main.e89bc8df.chunk.js",
-    "main.js.map": "/skylark-logistics/static/js/main.e89bc8df.chunk.js.map",
+    "main.js": "/skylark-logistics/static/js/main.21bf7fda.chunk.js",
+    "main.js.map": "/skylark-logistics/static/js/main.21bf7fda.chunk.js.map",
     "runtime-main.js": "/skylark-logistics/static/js/runtime-main.fca262b6.js",
     "runtime-main.js.map": "/skylark-logistics/static/js/runtime-main.fca262b6.js.map",
-    "static/js/2.f7fbf880.chunk.js": "/skylark-logistics/static/js/2.f7fbf880.chunk.js",
-    "static/js/2.f7fbf880.chunk.js.map": "/skylark-logistics/static/js/2.f7fbf880.chunk.js.map",
+    "static/js/2.ef3946f5.chunk.js": "/skylark-logistics/static/js/2.ef3946f5.chunk.js",
+    "static/js/2.ef3946f5.chunk.js.map": "/skylark-logistics/static/js/2.ef3946f5.chunk.js.map",
     "index.html": "/skylark-logistics/index.html",
     "static/css/main.b7c47126.chunk.css.map": "/skylark-logistics/static/css/main.b7c47126.chunk.css.map",
-    "static/js/2.f7fbf880.chunk.js.LICENSE.txt": "/skylark-logistics/static/js/2.f7fbf880.chunk.js.LICENSE.txt",
+    "static/js/2.ef3946f5.chunk.js.LICENSE.txt": "/skylark-logistics/static/js/2.ef3946f5.chunk.js.LICENSE.txt",
     "static/media/Approach.c4f7cb5d.png": "/skylark-logistics/static/media/Approach.c4f7cb5d.png",
     "static/media/HeroImage.ca6b662b.png": "/skylark-logistics/static/media/HeroImage.ca6b662b.png",
     "static/media/Logo.c1b5a53d.svg": "/skylark-logistics/static/media/Logo.c1b5a53d.svg",
@@ -18,8 +18,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.fca262b6.js",
-    "static/js/2.f7fbf880.chunk.js",
+    "static/js/2.ef3946f5.chunk.js",
     "static/css/main.b7c47126.chunk.css",
-    "static/js/main.e89bc8df.chunk.js"
+    "static/js/main.21bf7fda.chunk.js"
   ]
 }
