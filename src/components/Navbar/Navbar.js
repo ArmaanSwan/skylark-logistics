@@ -6,7 +6,7 @@ import { IoMenuSharp } from "react-icons/io5";
 const Navbar = () => {
     return (
         <header className="header">
-            <a href="/">
+            <a href="/skylark-logistics">
                 <Logo className="logo" />
             </a>
             <nav className="navbar">

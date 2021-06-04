@@ -20,7 +20,7 @@ const HeroSection = () => {
                 </p>
 
                 <div className="buttons">
-                    <a href="#about-us" className="a-primary">
+                    <a href="#helping-others" className="a-primary">
                         Learn More
                         <IoArrowForwardSharp className="icon" />
                     </a>
