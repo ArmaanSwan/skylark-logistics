@@ -1,0 +1,19 @@
+@import "../../variables.scss";
+
+.card {
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+    padding: 1rem;
+    border-radius: $br-md;
+    box-shadow: $box-shadow;
+    min-width: 272px;
+    max-width: 500px;
+
+    .image {
+        width: 100%;
+        height: 200px;
+        background-size: cover;
+        border-radius: $br-sm;
+    }
+}

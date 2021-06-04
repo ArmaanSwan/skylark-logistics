@@ -1,163 +1,163 @@
-@import './variables';
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+@import "./variables";
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Staatliches&display=swap");
 
 // Base Styles
-*, *::after, *::before {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 html {
-  scroll-behavior: smooth;
+    scroll-behavior: smooth;
 }
 
 body {
-  font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
 }
 
 button {
-  border: none;
-  padding: 0.75rem 1.5rem;
-  font-family: inherit;
-  font-size: 1rem;
-  cursor: pointer;
-  border-radius: $br-sm;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  gap: 0.6rem;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    font-family: inherit;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: $br-sm;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.6rem;
 
-  &.btn-primary {
-    background-color: $clr-primary;
-    color: #FFFFFF;
-    border: 1px solid $clr-primary;
-  }
+    &.btn-primary {
+        background-color: $clr-primary;
+        color: #ffffff;
+        border: 1px solid $clr-primary;
+    }
 
-  &.btn-secondary {
-    background-color: transparent;
-    color: $clr-primary;
-    border: 1px solid $clr-primary;
-  }
+    &.btn-secondary {
+        background-color: transparent;
+        color: $clr-primary;
+        border: 1px solid $clr-primary;
+    }
 
-  &:hover {
-    box-shadow: $box-shadow;
-  }
-}
-
-// Image Styles
-img {
-  height: 100%;
-  width: 100%;
+    &:hover {
+        box-shadow: $box-shadow;
+    }
 }
 
 // Text Styles
 a {
-  color: #000000;
-  font-weight: 500;
-  font-size: 1.2rem;
-  font-family: inherit;
-  text-decoration: none;
-
-  &:hover {
-    color: $clr-primary;
-  }
-
-  &.a-primary {
-    background-color: $clr-primary;
-    color: #FFFFFF;
-    padding: 0.75rem 1.5rem;
+    color: #000000;
+    font-weight: 500;
     font-size: 1rem;
-    border: 1px solid $clr-primary;
-    border-radius: $br-sm;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    gap: 0.6rem;
-  
-    &:hover {
-      color: #FFFFFF;
-      box-shadow: $box-shadow;
-    }
-  }
+    font-family: inherit;
+    text-decoration: none;
 
-  &.a-secondary {
-    background-color: transparent;
-    color: $clr-primary;
-    padding: 0.75rem 1.5rem;
-    font-size: 1rem;
-    border: 1px solid $clr-primary;
-    border-radius: $br-sm;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    gap: 0.6rem;
-  
     &:hover {
-      box-shadow: $box-shadow;
+        color: $clr-primary;
     }
-  }
+
+    &.a-primary {
+        background-color: $clr-primary;
+        color: #ffffff;
+        padding: 0.75rem 1.5rem;
+        border: 1px solid $clr-primary;
+        border-radius: $br-sm;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        gap: 0.6rem;
+
+        &:hover {
+            color: #ffffff;
+            box-shadow: $box-shadow;
+        }
+    }
+
+    &.a-secondary {
+        background-color: transparent;
+        color: $clr-primary;
+        padding: 0.75rem 1.5rem;
+        border: 1px solid $clr-primary;
+        border-radius: $br-sm;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        gap: 0.6rem;
+
+        &:hover {
+            box-shadow: $box-shadow;
+        }
+    }
 }
 
-h1, h2, h3, h4, h5, h6 {
-  font-family: 'Staatliches', 'Poppins', sans-serif;
-  font-weight: 500;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Staatliches", "Poppins", sans-serif;
+    font-weight: 500;
 }
 
 h1 {
-  font-size: 2.5rem;
+    font-size: 2.5rem;
 }
 
 h2 {
-  font-size: 1.25rem;
+    font-size: 1.8rem;
 }
 
 .text-primary {
-  color: $clr-primary;
+    color: $clr-primary;
 }
 
 // Icon Styles
 .icon {
-  height: 24px;
-  width: 24px;
+    height: 28px;
+    width: 28px;
 
-  &.icon-primary {
-    color: $clr-primary;
-  }
+    &.icon-primary {
+        color: $clr-primary;
+    }
 
-  &.icon-white {
-    color: #FFFFFF;
-  }
+    &.icon-white {
+        color: #ffffff;
+    }
 
-  @media only screen and (min-width: 768px) {
-    height: 32px;
-    width: 32px;
-  }
+    @media only screen and (min-width: $bp-md) {
+        height: 24px;
+        width: 24px;
+    }
 }
 
 // Form Styles
 form {
-  display: flex;
-  flex-direction: column;
-  gap: 0.75rem;
-  max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    max-width: 500px;
 }
 
-input, textarea {
-  padding: 0.75rem 0.5rem;
-  font-family: inherit;
-  font-size: 1rem;
-  border: 1px solid $clr-primary;
-  border-radius: $br-sm;
-  outline: none;
-  resize: vertical;
+input,
+textarea {
+    padding: 0.75rem 0.5rem;
+    font-family: inherit;
+    font-size: 1rem;
+    border: 1px solid $clr-primary;
+    border-radius: $br-sm;
+    outline: none;
+    resize: vertical;
 
-  &::placeholder {
-    color: $clr-primary-light;
-  }
+    &::placeholder {
+        color: $clr-primary-light;
+    }
 
-  &:focus {
-    box-shadow: $box-shadow;
-  }
+    &:focus {
+        box-shadow: $box-shadow;
+    }
 }

@@ -1,0 +1,9 @@
+@import "../../variables.scss";
+
+.about-us-section {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(272px, 1fr));
+    justify-content: center;
+    gap: 2rem;
+    padding: 0 2rem 1rem 2rem;
+}

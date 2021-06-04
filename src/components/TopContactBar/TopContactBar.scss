@@ -1,0 +1,15 @@
+@import "../../variables.scss";
+
+.top-contact-bar {
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 0.5rem;
+    padding: 0 2rem;
+    position: sticky;
+    top: 0;
+    left: 0;
+    color: #ffffff;
+    background-color: $clr-primary;
+}

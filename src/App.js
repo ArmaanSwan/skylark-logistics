@@ -1,15 +1,17 @@
-import * as IoIcons from 'react-icons/io5';
+import TopContactBar from "./components/TopContactBar/TopContactBar";
+import Navbar from "./components/Navbar/Navbar";
+import HeroSection from "./components/HeroSection/HeroSection";
+import AboutUsCardsSection from "./components/AboutUsCardsSection/AboutUsCardsSection";
 
 function App() {
-  return (
-    <>
-      <main>
-        <section className="home">
-          <h1>Logistics Services Across <span className="text-primary">Canada</span></h1>
-        </section>
-      </main>
-    </>
-  );
+    return (
+        <main itemScope itemType="https://schema.org/Organization">
+            <TopContactBar />
+            <Navbar />
+            <HeroSection />
+            <AboutUsCardsSection />
+        </main>
+    );
 }
 
 export default App;
