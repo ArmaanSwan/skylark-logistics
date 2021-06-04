@@ -1,25 +1,29 @@
 {
   "files": {
-    "main.css": "/skylark-logistics/static/css/main.b7c47126.chunk.css",
-    "main.js": "/skylark-logistics/static/js/main.0be07fab.chunk.js",
-    "main.js.map": "/skylark-logistics/static/js/main.0be07fab.chunk.js.map",
+    "main.css": "/skylark-logistics/static/css/main.48a688c6.chunk.css",
+    "main.js": "/skylark-logistics/static/js/main.825a3ea6.chunk.js",
+    "main.js.map": "/skylark-logistics/static/js/main.825a3ea6.chunk.js.map",
     "runtime-main.js": "/skylark-logistics/static/js/runtime-main.fca262b6.js",
     "runtime-main.js.map": "/skylark-logistics/static/js/runtime-main.fca262b6.js.map",
     "static/js/2.f7fbf880.chunk.js": "/skylark-logistics/static/js/2.f7fbf880.chunk.js",
     "static/js/2.f7fbf880.chunk.js.map": "/skylark-logistics/static/js/2.f7fbf880.chunk.js.map",
     "index.html": "/skylark-logistics/index.html",
-    "static/css/main.b7c47126.chunk.css.map": "/skylark-logistics/static/css/main.b7c47126.chunk.css.map",
+    "static/css/main.48a688c6.chunk.css.map": "/skylark-logistics/static/css/main.48a688c6.chunk.css.map",
     "static/js/2.f7fbf880.chunk.js.LICENSE.txt": "/skylark-logistics/static/js/2.f7fbf880.chunk.js.LICENSE.txt",
     "static/media/Approach.c4f7cb5d.png": "/skylark-logistics/static/media/Approach.c4f7cb5d.png",
+    "static/media/ForkliftandLabeling.6fe51f7a.png": "/skylark-logistics/static/media/ForkliftandLabeling.6fe51f7a.png",
+    "static/media/HelpingOthers.701c265a.png": "/skylark-logistics/static/media/HelpingOthers.701c265a.png",
     "static/media/HeroImage.ca6b662b.png": "/skylark-logistics/static/media/HeroImage.ca6b662b.png",
+    "static/media/LoadingAndUnloading.2b96287a.png": "/skylark-logistics/static/media/LoadingAndUnloading.2b96287a.png",
     "static/media/Logo.c1b5a53d.svg": "/skylark-logistics/static/media/Logo.c1b5a53d.svg",
     "static/media/Relations.cef00d2a.png": "/skylark-logistics/static/media/Relations.cef00d2a.png",
+    "static/media/RepackingAndReworking.26126abf.png": "/skylark-logistics/static/media/RepackingAndReworking.26126abf.png",
     "static/media/Services.5dc37650.png": "/skylark-logistics/static/media/Services.5dc37650.png"
   },
   "entrypoints": [
     "static/js/runtime-main.fca262b6.js",
     "static/js/2.f7fbf880.chunk.js",
-    "static/css/main.b7c47126.chunk.css",
-    "static/js/main.0be07fab.chunk.js"
+    "static/css/main.48a688c6.chunk.css",
+    "static/js/main.825a3ea6.chunk.js"
   ]
 }
