@@ -30,7 +30,7 @@ const HelpingOthersSection = () => {
                     <li>
                         We charge our customers flat rate and pay our employees
                         flat rate as well. This ensures that your work is done
-                        in a timely manner.
+                        on time.
                     </li>
                     <li>We offer loading and unloading of containers.</li>
                     <li>All our associates are fully insured.</li>

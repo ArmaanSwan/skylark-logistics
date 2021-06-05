@@ -17,7 +17,7 @@ const ServicesSection = () => {
                 <Card
                     img={LoadingAndUnloading}
                     title="Loading and Unloading Services"
-                    text="We can load and unload any and all shipping containers. All of our facilities are equipped to load or unload palletized, floor loaded, slip-sheets or drums."
+                    text="We can load and unload any shipping containers. All of our facilities are equipped to load or unload palletized, floor-loaded, slip-sheets or drums."
                 />
                 <Card
                     img={RepackingAndReworking}
@@ -27,7 +27,7 @@ const ServicesSection = () => {
                 <Card
                     img={ForkliftandLabeling}
                     title="Labeling, Forklifting, Clamp and Slip-sheet Operators"
-                    text="We have experienced forklift operators available for hire, either for short term (single-day) or for long term. Whatever your needs, we have team members with the skills to assist, including high-reach, grab, slip-sheet and a multitude of other expertise."
+                    text="We have experienced forklift operators available for hire, either for the short term (single-day) or for the long term. Whatever your needs, we have team members with the skills to assist, including high-reach, grab, slip-sheet, and a multitude of other expertise."
                 />
             </div>
         </section>

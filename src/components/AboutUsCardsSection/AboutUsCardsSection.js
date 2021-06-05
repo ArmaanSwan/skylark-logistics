@@ -12,17 +12,17 @@ const AboutUsCardsSection = () => {
             <Card
                 img={OurServices}
                 title="Our Services"
-                text="We appreciate the oppurtunity to submit the proposal for our services. Our goal is to become a value-added partener."
+                text="We appreciate the opportunity to submit the proposal for our services. Our goal is to become a value-added partner."
             />
             <Card
                 img={OurApproach}
                 title="Our Approach"
-                text="We always provide you with the most cost effective and efficient warehouse services available. We always appreciate the best approach."
+                text="We always provide you with the most cost-effective and efficient warehouse services available. We always appreciate the best approach."
             />
             <Card
                 img={OurRelations}
                 title="Our Relations"
-                text="We believe in the strong relation with our customer to provide them the best services available at the best rates and safety."
+                text="We believe in strong relations with our customers to provide them the best services available at the best rates and safety."
             />
         </section>
     );

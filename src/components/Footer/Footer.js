@@ -9,9 +9,9 @@ const Footer = () => {
                 <WhiteLogo />
                 <p className="sub-text">
                     SKYLARK LOGISTICS SERVICES has been providing quality
-                    services to our customers. We pride ourselves at
+                    services to our customers. We pride ourselves on
                     understanding customer's specifications and operations which
-                    result in us becoming a value added paetener in your
+                    result in us becoming a value-added partner in your
                     warehouse operations.
                 </p>
             </div>

@@ -14,9 +14,9 @@ const HeroSection = () => {
 
                 <p className="subtext">
                     We provide efficient workmanship for loading and unloading
-                    containers and focus on the improvement on current manual
-                    operations in your warehouse. We ensure that your work is
-                    done in timely manner.
+                    containers. We also focus on the improvement of current
+                    manual operations in your warehouse. We ensure that your
+                    work is done on time.
                 </p>
 
                 <div className="buttons">
