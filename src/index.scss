@@ -13,6 +13,7 @@
 
 html {
     scroll-behavior: smooth;
+    scroll-padding-top: 6.5rem;
 }
 
 body {
@@ -160,4 +161,8 @@ textarea {
     &:focus {
         box-shadow: $box-shadow;
     }
+}
+
+textarea {
+    min-height: 10rem;
 }

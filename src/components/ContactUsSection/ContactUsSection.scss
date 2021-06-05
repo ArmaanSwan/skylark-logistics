@@ -1,0 +1,53 @@
+@import "../../variables.scss";
+
+.contact-us-section {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 0.5rem;
+    padding: 2rem;
+    align-items: center;
+    justify-items: center;
+
+    .text {
+        grid-row: 1;
+        grid-column: 1 / 13;
+
+        .contact-card {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            font-size: 1.1rem;
+            font-weight: 500;
+            margin: 1rem 0;
+
+            & .contact-card-email {
+                font-size: 0.9rem;
+            }
+        }
+    }
+
+    .contact-us-form {
+        grid-row: 2;
+        grid-column: 1 / 13;
+        min-width: 272px;
+        width: 100%;
+        max-width: 500px;
+    }
+}
+
+@media only screen and (min-width: $bp-md) {
+    .contact-us-section {
+        .text {
+            grid-row: 1;
+            grid-column: 1 / 6;
+
+            .contact-card {
+                font-size: 1.3rem;
+            }
+        }
+        .contact-us-form {
+            grid-row: 1;
+            grid-column: 6 / 13;
+        }
+    }
+}

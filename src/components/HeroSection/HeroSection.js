@@ -5,7 +5,7 @@ import { IoArrowForwardSharp, IoCallSharp } from "react-icons/io5";
 
 const HeroSection = () => {
     return (
-        <section className="hero-section">
+        <section className="hero-section" id="home">
             <div className="text">
                 <h1 className="title">
                     Logistics Services <br /> Across

@@ -1,0 +1,76 @@
+@import "../../variables.scss";
+
+.footer {
+    display: grid;
+    gap: 1.5rem;
+    grid-template-columns: repeat(12, 1fr);
+    background-color: $clr-primary;
+    padding-top: 2rem;
+    align-items: center;
+
+    .sub-text {
+        margin-top: 1rem;
+    }
+
+    .text-1 {
+        grid-row: 1;
+        grid-column: 1 / 13;
+        padding: 0 2rem;
+        color: #ffffff;
+    }
+    .text-2 {
+        grid-row: 2;
+        grid-column: 1 / 13;
+        padding: 0 2rem;
+
+        & .links {
+            margin-top: 1rem;
+            list-style-type: none;
+
+            & .link {
+                &:hover {
+                    color: #ffffff;
+                }
+            }
+        }
+    }
+    .text-3 {
+        grid-row: 3;
+        grid-column: 1 / 13;
+        padding: 0 2rem;
+        font-weight: 500;
+
+        .address {
+            margin-top: 1rem;
+            list-style-type: none;
+        }
+    }
+
+    .copyright-bar {
+        grid-row: 4;
+        grid-column: 1 / 13;
+        height: 35px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #ffffff;
+        background-color: $clr-primary-dark;
+    }
+}
+
+@media only screen and (min-width: $bp-lg) {
+    .footer {
+        .text-1 {
+            grid-row: 1;
+            grid-column: 1 / 6;
+        }
+        .text-2 {
+            grid-row: 1;
+            grid-column: 6 / 9;
+        }
+        .text-3 {
+            grid-row: 1;
+            grid-column: 9 / 13;
+        }
+    }
+}
