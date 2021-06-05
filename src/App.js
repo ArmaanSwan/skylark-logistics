@@ -9,7 +9,7 @@ import Footer from "./components/Footer/Footer";
 
 function App() {
     return (
-        <main itemScope itemType="https://schema.org/Organization">
+        <main>
             <TopContactBar />
             <Navbar />
             <HeroSection />
