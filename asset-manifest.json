@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/skylark-logistics/static/css/main.326228c1.chunk.css",
+    "main.css": "/skylark-logistics/static/css/main.60328683.chunk.css",
     "main.js": "/skylark-logistics/static/js/main.9e688ace.chunk.js",
     "main.js.map": "/skylark-logistics/static/js/main.9e688ace.chunk.js.map",
     "runtime-main.js": "/skylark-logistics/static/js/runtime-main.fca262b6.js",
@@ -8,7 +8,7 @@
     "static/js/2.d21ce443.chunk.js": "/skylark-logistics/static/js/2.d21ce443.chunk.js",
     "static/js/2.d21ce443.chunk.js.map": "/skylark-logistics/static/js/2.d21ce443.chunk.js.map",
     "index.html": "/skylark-logistics/index.html",
-    "static/css/main.326228c1.chunk.css.map": "/skylark-logistics/static/css/main.326228c1.chunk.css.map",
+    "static/css/main.60328683.chunk.css.map": "/skylark-logistics/static/css/main.60328683.chunk.css.map",
     "static/js/2.d21ce443.chunk.js.LICENSE.txt": "/skylark-logistics/static/js/2.d21ce443.chunk.js.LICENSE.txt",
     "static/media/Approach.c4f7cb5d.png": "/skylark-logistics/static/media/Approach.c4f7cb5d.png",
     "static/media/ForkliftandLabeling.6fe51f7a.png": "/skylark-logistics/static/media/ForkliftandLabeling.6fe51f7a.png",
@@ -24,7 +24,7 @@
   "entrypoints": [
     "static/js/runtime-main.fca262b6.js",
     "static/js/2.d21ce443.chunk.js",
-    "static/css/main.326228c1.chunk.css",
+    "static/css/main.60328683.chunk.css",
     "static/js/main.9e688ace.chunk.js"
   ]
 }
