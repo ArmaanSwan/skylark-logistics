@@ -9,16 +9,18 @@ import Footer from "./components/Footer/Footer";
 
 function App() {
     return (
-        <main>
+        <>
             <TopContactBar />
             <Navbar />
-            <HeroSection />
-            <AboutUsCardsSection />
-            <HelpingOthersSection />
-            <ServicesSection />
-            <ContactUsSection />
+            <main>
+                <HeroSection />
+                <AboutUsCardsSection />
+                <HelpingOthersSection />
+                <ServicesSection />
+                <ContactUsSection />
+            </main>
             <Footer />
-        </main>
+        </>
     );
 }
 

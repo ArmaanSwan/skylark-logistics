@@ -1,6 +1,11 @@
 import "./HelpingOthersSection.scss";
 
-import HelpingOthers from "../../assets/HelpingOthers.png";
+import Helping256WEBP from "../../assets/images/helpingOthers256.webp";
+import Helping512WEBP from "../../assets/images/helpingOthers512.webp";
+import Helping768WEBP from "../../assets/images/helpingOthers768.webp";
+import Helping256PNG from "../../assets/images/helpingOthers256.png";
+import Helping512PNG from "../../assets/images/helpingOthers512.png";
+import Helping768PNG from "../../assets/images/helpingOthers768.png";
 
 const HelpingOthersSection = () => {
     return (
@@ -10,10 +15,21 @@ const HelpingOthersSection = () => {
                 <span className="text-primary">Canada</span>
             </h1>
             <div className="image">
-                <img
-                    src={HelpingOthers}
-                    alt="Five people sitting together on a large piece of puzzle, helping each other out"
-                />
+                <picture>
+                    <source
+                        type="image/webp"
+                        srcSet={`${Helping256WEBP} 256w, ${Helping512WEBP} 512w, ${Helping768WEBP} 786w`}
+                    />
+                    <source
+                        type="image/png"
+                        srcSet={`${Helping256PNG} 256w, ${Helping512PNG} 512w, ${Helping768PNG} 768w`}
+                    />
+                    <img
+                        type="image/png"
+                        src={Helping768PNG}
+                        alt="Five people sitting together on a large piece of puzzle, helping each other out"
+                    />
+                </picture>
             </div>
             <div className="text">
                 <h1 className="desktop-section-title">

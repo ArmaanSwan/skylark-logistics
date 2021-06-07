@@ -3,6 +3,7 @@
 .helping-others-section {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
+    gap: 16px;
     padding: 1rem 2rem;
     align-items: center;
 
@@ -17,10 +18,7 @@
 
     .image {
         grid-row: 2;
-        grid-column-start: 1;
-        grid-column-end: 13;
-        // grid-column-start: 1;
-        // grid-column-end: 7;
+        grid-column: 1 / 13;
 
         img {
             width: 100%;
